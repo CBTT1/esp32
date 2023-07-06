@@ -1,0 +1,290 @@
+[0;33m--- idf_monitor on /dev/cu.usbmodem2101 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4004c72e: SelectSpiFunction in ROM
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', '/Users/cbtt1/esp/hello_world/build/hello_world.elf', '-ex', 'target remote | "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/bin/python" "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py" --target esp32c3 "/var/folders/99/c14pk13j5rbbmxpbqldrwt6h0000gn/T/tmpo0tm0rql"', '-ex', 'bt']' returned non-zero exit status 1.
+b'/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/cbtt1/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin/riscv32-esp-elf-gdb-3.11.4qj3u8w\nTraceback (most recent call last):\n  File "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py", line 291, in <module>\n    main()\n  File "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py", line 281, in main\n    panic_info = PANIC_OUTPUT_PARSERS[args.target](args.input_file.read())\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py", line 148, in parse_idf_riscv_panic_output\n    stack_base_addr, stack_data = get_stack_addr_and_data(res)\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py", line 116, in get_stack_addr_and_data\n    assert base_addr == prev_base_addr + bytes_in_line\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\nRemote connection closed\nNo stack.\n'
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33mFailed to run gdb_panic_server.py script: Command '['riscv32-esp-elf-gdb', '--batch', '-n', '/Users/cbtt1/esp/hello_world/build/hello_world.elf', '-ex', 'target remote | "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/bin/python" "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py" --target esp32c3 "/var/folders/99/c14pk13j5rbbmxpbqldrwt6h0000gn/T/tmpd452yl52"', '-ex', 'bt']' returned non-zero exit status 1.
+b'/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/cbtt1/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin/riscv32-esp-elf-gdb-3.11.ifABvDA\nTraceback (most recent call last):\n  File "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py", line 291, in <module>\n    main()\n  File "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py", line 281, in main\n    panic_info = PANIC_OUTPUT_PARSERS[args.target](args.input_file.read())\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/Users/cbtt1/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esp_idf_monitor/base/../gdb_panic_server.py", line 134, in parse_idf_riscv_panic_output\n    raise ValueError("Couldn\'t parse panic handler output")\nValueError: Couldn\'t parse panic handler output\nRemote connection closed\nNo stack.\n'
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0;33mStack dump detected[0m
+[0;33m0x4038508e: xTaskRemoveFromEventList at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:3939
+[0m
+[0;33m0x40384160: xQueueSemaphoreTake at /Users/cbtt1/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1706
+[0m
+[0;33m0x4200597c: console_write at /Users/cbtt1/esp/esp-idf/components/vfs/vfs_console.c:71
+[0m
+[0;33m0x40380001: _vector_table at ??:?
+[0m
+[0;33m
+Backtrace:
+
+[0m
+[0;33m0x4038061e: esp_restart_noos at /Users/cbtt1/esp/esp-idf/components/esp_system/port/soc/esp32c3/system_internal.c:108 (discriminator 1)
+[0m
+[0m
