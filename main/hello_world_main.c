@@ -12,21 +12,14 @@
 #include <inttypes.h>
 #include <stdio.h>
 
-typedef struct A_STRUCT {
-  int iMem1;
-  int iMem2;
-  int iMem3;
-} xStruct;
-
-xStruct xStructTest = {6, 9, 12};
+static const char *pcTxt = "C'Mon City!";
 
 void myTask(void *pvParam) {
-  xStruct *pStrTest;
-  pStrTest = (xStruct *)pvParam;
+  char *pcTxtInTask;
 
-  printf("I got struct num1 = %d\n", pStrTest->iMem1);
-  printf("I got struct num2 = %d\n", pStrTest->iMem2);
-  printf("I got struct num3 = %d\n", pStrTest->iMem3);
+  pcTxtInTask = (char *)pvParam;
+
+  printf("I got message %s\n", pcTxtInTask);
 
   vTaskDelay(1000 / portTICK_PERIOD_MS);
 
@@ -35,5 +28,5 @@ void myTask(void *pvParam) {
 
 /****main****/
 void app_main(void) {
-  xTaskCreate(myTask, "myTask1", 2048, (void *)&xStructTest, 1, NULL);
+  xTaskCreate(myTask, "myTask1", 2048, (void *)pcTxt, 1, NULL);
 }
