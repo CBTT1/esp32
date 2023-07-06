@@ -16,7 +16,15 @@ void myTask()
 {
     while(1)
     {
-	printf("Hello world! In the Task!\n");
+	printf("Hello world! First Time\n");
+	vTaskDelay(1000 / portTICK_PERIOD_MS);
+
+	printf("Hello world! Second Time\n");
+	vTaskDelay(1000 / portTICK_PERIOD_MS);
+
+	vTaskDelete(NULL);
+
+	printf("Hello world! Third Time\n");
 	vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 
@@ -27,10 +35,10 @@ void app_main(void)
     TaskHandle_t myHandle = NULL;
     xTaskCreate(myTask, "myTask1", 1024, NULL, 1, &myHandle);
 
-    vTaskDelay(8000 / portTICK_PERIOD_MS);
-
-    if(myHandle != NULL)
-	vTaskDelete(myHandle);
+//    vTaskDelay(8000 / portTICK_PERIOD_MS);
+//
+//    if(myHandle != NULL)
+//	vTaskDelete(myHandle);
 
 //    printf("Hello world!\n");
 //    printf("This is CBT!\n");
