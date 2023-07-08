@@ -12,21 +12,29 @@
 #include <inttypes.h>
 #include <stdio.h>
 
-static const char *pcTxt = "C'Mon City!";
-
-void myTask(void *pvParam) {
-  char *pcTxtInTask;
-
-  pcTxtInTask = (char *)pvParam;
-
-  printf("I got message %s\n", pcTxtInTask);
-
-  vTaskDelay(1000 / portTICK_PERIOD_MS);
-
-  vTaskDelete(NULL);
+void myTask1(void *pvParam) {
+  while (1) {
+    printf("task1-111\n");
+    vTaskDelay(1000 / portTICK_PERIOD_MS);
+  }
 }
 
+void myTask2(void *pvParam) {
+  while (1) {
+    printf("task2-222\n");
+    vTaskDelay(1000 / portTICK_PERIOD_MS);
+  }
+}
+
+void myTask3(void *pvParam) {
+  while (1) {
+    printf("task3-333\n");
+    vTaskDelay(1000 / portTICK_PERIOD_MS);
+  }
+}
 /****main****/
 void app_main(void) {
-  xTaskCreate(myTask, "myTask1", 2048, (void *)pcTxt, 1, NULL);
+  xTaskCreate(myTask1, "myTask1", 1024, NULL, 1, NULL);
+  xTaskCreate(myTask2, "myTask2", 1024, NULL, 2, NULL);
+  xTaskCreate(myTask3, "myTask3", 1024, NULL, 3, NULL);
 }

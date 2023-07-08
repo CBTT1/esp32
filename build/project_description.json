@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "hello_world",
-    "project_version":    "1",
+    "project_version":    "a35958b-dirty",
     "project_path":       "/Users/cbtt1/esp/hello_world",
     "idf_path":           "/Users/cbtt1/esp/esp-idf",
     "build_dir":          "/Users/cbtt1/esp/hello_world/build",
@@ -11,7 +11,7 @@
     "app_elf":            "hello_world.elf",
     "app_bin":            "hello_world.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v5.2-dev-1349-gcf7e743a9b",
+    "git_revision":       "v5.2-dev-1349-gcf7e743a9b-dirty",
     "target":             "esp32c3",
     "rev":                "",
     "min_rev":            "3",

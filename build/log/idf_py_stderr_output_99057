@@ -1,6 +1,0 @@
-[0;33m--- idf_monitor on /dev/cu.usbmodem2101 115200 ---[0m
-[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
-[0;33m0x4004c62c: SelectSpiFunction in ROM
-[0m
-[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 4f02c63164ee383f8c6235c9dc6fe6156298836ce912f040035976ecc1233944[0m
-[0m

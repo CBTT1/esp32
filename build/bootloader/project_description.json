@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "bootloader",
-    "project_version":    "v5.2-dev-1349-gcf7e743a9b",
+    "project_version":    "v5.2-dev-1349-gcf7e743a9b-dirty",
     "project_path":       "/Users/cbtt1/esp/esp-idf/components/bootloader/subproject",
     "idf_path":           "/Users/cbtt1/esp/esp-idf",
     "build_dir":          "/Users/cbtt1/esp/hello_world/build/bootloader",
@@ -11,7 +11,7 @@
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
     "build_type":         "flash_app",
-    "git_revision":       "v5.2-dev-1349-gcf7e743a9b",
+    "git_revision":       "v5.2-dev-1349-gcf7e743a9b-dirty",
     "target":             "esp32c3",
     "rev":                "",
     "min_rev":            "3",
