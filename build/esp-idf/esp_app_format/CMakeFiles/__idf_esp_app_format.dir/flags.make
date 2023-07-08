@@ -8,5 +8,5 @@ C_INCLUDES = -I/Users/cbtt1/esp/hello_world/build/config -I/Users/cbtt1/esp/esp-
 
 C_FLAGS = -march=rv32imc_zicsr_zifencei  -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -nostartfiles -Og -fmacro-prefix-map=/Users/cbtt1/esp/hello_world=. -fmacro-prefix-map=/Users/cbtt1/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration
 
-# Custom defines: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="a35958b-dirty"; PROJECT_NAME="hello_world"
+# Custom defines: esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="64df8dd-dirty"; PROJECT_NAME="hello_world"
 
