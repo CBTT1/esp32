@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "hello_world",
-    "project_version":    "64df8dd-dirty",
+    "project_version":    "0c81763-dirty",
     "project_path":       "/Users/cbtt1/esp/hello_world",
     "idf_path":           "/Users/cbtt1/esp/esp-idf",
     "build_dir":          "/Users/cbtt1/esp/hello_world/build",

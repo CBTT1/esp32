@@ -1,0 +1,4 @@
+/Users/cbtt1/esp/hello_world/main/hello_world_main.c: In function 'app_main':
+/Users/cbtt1/esp/hello_world/main/hello_world_main.c:37:15: warning: unused variable 'iPriority' [-Wunused-variable]
+   37 |   UBaseType_t iPriority[3] = {0};
+      |               ^~~~~~~~~

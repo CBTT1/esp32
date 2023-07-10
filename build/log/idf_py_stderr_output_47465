@@ -1,0 +1,5 @@
+CMake Error at /Users/cbtt1/esp/esp-idf/components/freertos/CMakeLists.txt:35 (message):
+  FreeRTOS v10.5.1 is not buildable yet.  Still under development
+
+
+make: *** [cmake_check_build_system] Error 1
